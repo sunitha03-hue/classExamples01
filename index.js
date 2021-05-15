@@ -19,3 +19,14 @@ console.log(fox);
 console.log(fox.age, fox.color);
 
 //Try modifying or adding properties below.
+class Astronaut1 {
+   constructor(name, age, mass=90){
+      this.name = name;
+      this.age = age;
+      this.mass = mass;
+   }
+}
+
+let tortoise = new Astronaut1('Speedy', 120);
+
+console.log(tortoise.name, tortoise.age, tortoise.mass);
